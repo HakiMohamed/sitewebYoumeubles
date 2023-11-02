@@ -1,0 +1,107 @@
+
+.form-area {
+    padding-top: 0;
+  }
+  
+  .row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+    /* background: #000; */
+  }
+  
+  .leftf {
+    background: url("../imgs/091423_Super_PendantLights_D.jpg") no-repeat;
+    background-size: cover;
+    padding: 200px 98px;
+    height: 100%;
+  }
+  
+  .leftf h2 {
+    font-family: poppins;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  
+  .leftf h2 span {
+    font-weight: 100;
+  }
+  
+  .rightf{
+    padding: 70px 100px;
+    position: relative;
+  }
+  
+  .rightf i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #fff;
+  } 
+  
+  .form-control {
+    border: 2px solid #000;
+  }
+  
+  .rightf button {
+    border: none;
+    border-radius: 0;
+    background: #252525;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  
+  .herof {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group {
+    width: 50%;
+    max-width: 600px;
+    position: relative;
+}
+
+.input-group textarea,
+.input-group input {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #555;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    padding : 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+
+.input-group label {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+.input-group span {
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color:red;
+}

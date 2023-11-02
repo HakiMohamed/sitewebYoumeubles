@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>WebSite</title>
+</head>
+<body>
+    <header>
+        <div class="aboveNav">
+          <div class="logo">
+            <img src="assets/imgs/logowhite.svg" alt="YouMeubles" />
+          </div>
+          <div class="rightInfo">
+            <div class="number">
+              <i class="fa-solid fa-phone"></i>
+              <p>0697042868</p>
+            </div>
+            <div class="Email">
+              <i class="fa-regular fa-envelope"></i>
+              <p>Email@example.com</p>
+            </div>
+          </div>
+        </div>
+        <hr style="margin: 0" />
+        <nav class="navbar navbar-dark bg-gray">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar"
+              aria-controls="offcanvasDarkNavbar"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end bg-gray"
+              tabindex="-1"
+              id="offcanvasDarkNavbar"
+              aria-labelledby="offcanvasDarkNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#store">Store</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="assets/pages/about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="assets/pages/contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+    
+              <div class="middle_text">
+                <h3>Amazing Exclusive Design</h3>
+                <p>Your Home Deserves Special and Selected Furnishings</p>
+              </div>
+              <img src="assets/imgs/slide-3-1.jpg" class="d-block w-100 specails" alt="/assets/imgs/slide-3-1.jpg">
+            </div>
+            <div class="carousel-item">
+              <div class="middle_text">
+                <h3>Modern Living Room Sets</h3>
+                <p>Created by Award-Winning Designers, Suitable for All Interiors</p>
+              </div>
+              <img src="assets/imgs/slide-1-1.jpg" class="d-block w-100 specails" alt="/assets/imgs/slide-3-1.jpg">
+            </div>
+            <div class="carousel-item">
+              <div class="middle_text">
+                <h3>Authentic and Luxurious</h3>
+                <p>Elegant and Chic Furniture for Those Who Value Comfort</p>
+              </div>
+              <img src="assets/imgs/slide-2.jpg" class="d-block w-100 specails" alt="/assets/imgs/slide-3-1.jpg">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+    
+          </button>
+        </div>
+        <div class="about-section">
+          <div class="about_container">
+            <div class="right">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img class="img" src="assets/imgs/Sonny_2.webp" alt=""></div>
+                  <div class="swiper-slide"><img class="img"
+                    src="assets/imgs/HOME-Bradstreet-Antique-Floral-Bird-Chair_1.webp" alt=""></div>
+                  <div class="swiper-slide"><img class="img" src="assets/imgs/Ikea-NORRNAS_3.webp" alt=""></div>
+                  <div class="swiper-slide"><img class="img" src="assets/imgs/IkeaSIGURD_2.webp" alt=""></div>
+                  <div class="swiper-slide"><img class="img" src="assets/imgs/Sonny_2.webp" alt=""></div>
+                  <div class="swiper-slide"><img class="img" src="assets/imgs/Colette-Velvet-King_1.webp" alt=""></div>
+                  <div class="swiper-slide"><img class="img"
+                    src="assets/imgs/HOME-Bradstreet-Antique-Floral-Bird-Chair_1.webp" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="autoplay-progress">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="left">
+              <div class="big-title">
+                <h3>About us</h3>
+              </div>
+              <div class="disc">
+                <p>Furnicom is a furniture-producing company which items can be characterized as unique, non-conformist and
+                  authentic – never boring and always full of imagination and inspiration.</p>
+                <p>Furnicom succeeds for years in tracking down style icons, developing trends and innovations in furniture
+                  design, and using them to fulfil the dreams of furnishing enthusiasts.</p>
+                <p>With the courage to innovate, Furnicom creates trends and unique furnishing collections being affordable
+                  and desirable for all people. As an international supplier and generator of change Furnicom continues
+                  creating new furnishing designs and art objects.</p>
+              </div>
+    
+            </div>
+            <div class="last">
+              <div class="disc">
+                <img src="assets/imgs/chairxx.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div id="carouselExampleControlsNoTouching" class="carousel slide " data-bs-touch="false">
+    
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    
+        <section class="img-card">
+          <div class="container-img">
+            <div class="card">
+              <div class="content">
+                <div class="imgBx">
+                  <img src="assets/imgs/box4.jpg">
+                </div>
+                <div class="contentBx">
+                  <h3>Chandelier<br><span>Best Quality</span></h3>
+                </div>
+              </div>
+              <a href="assets/pages/details1.html" target="_blank" class="bg-color-primary">Get It Now</a>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="imgBx">
+                  <img src="assets/imgs/box1-1.jpg">
+                </div>
+                <div class="contentBx">
+                  <h3>Chair<br><span>Best Quality</span></h3>
+                </div>
+              </div>
+              <a href="assets/pages/details2.html" target="_blank" class="bg-color-primary">get it now</a>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="imgBx">
+                  <img src="assets/imgs/box5.jpg">
+                </div>
+                <div class="contentBx">
+                  <h3>Pillows<br><span>Best Quality</span></h3>
+                </div>
+              </div>
+              <a href="assets/pages/details3.html" target="_blank" class="bg-color-primary">get it now</a>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="imgBx">
+                  <img src="assets/imgs/box2.jpg">
+                </div>
+                <div class="contentBx">
+                  <h3>Tabels<br><span>Best Quality</span></h3>
+                </div>
+              </div>
+              <a href="assets/pages/details1.html" target="_blank" class="bg-color-primary">get it now</a>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="imgBx">
+                  <img src="assets/imgs/box6-4.jpg">
+                </div>
+                <div class="contentBx">
+                  <h3>Chandelier<br><span>Best Quality</span></h3>
+                </div>
+              </div>
+              <a href="assets/pages/details2.html" target="_blank" class="bg-color-primary">get it now</a>
+            </div>
+          </div>
+        </section>
+    
+        <section id="store" class="section-products">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-md-8 col-lg-6">
+                <div class="header">
+                  <h3>Featured Product</h3>
+                  <h2>Popular Products</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Single Product -->
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-1" class="single-product">
+                  <div class="part-1">
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-old-price">$79.99</h4>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Product -->
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-2" class="single-product">
+                  <div class="part-1">
+                    <span class="discount">15% off</span>
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Product -->
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-3" class="single-product">
+                  <div class="part-1">
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-old-price">$79.99</h4>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Product -->
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-4" class="single-product">
+                  <div class="part-1">
+                    <span class="new">new</span>
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Product -->
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-5" class="single-product">
+                  <div class="part-1">
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-old-price">$79.99</h4>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Product -->
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-6" class="single-product">
+                  <div class="part-1">
+                    <span class="discount">15% off</span>
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Product -->
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-7" class="single-product">
+                  <div class="part-1">
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-old-price">$79.99</h4>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Product -->
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-8" class="single-product">
+                  <div class="part-1">
+                    <span class="new">new</span>
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-9" class="single-product">
+                  <div class="part-1">
+                    <span class="new">new</span>
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-10" class="single-product">
+                  <div class="part-1">
+                    <span class="new">new</span>
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-11" class="single-product">
+                  <div class="part-1">
+                    <span class="new">new</span>
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div id="product-12" class="single-product">
+                  <div class="part-1">
+                    <span class="new">new</span>
+                    <ul>
+                      <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                      <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                    </ul>
+                  </div>
+                  <div class="part-2">
+                    <h3 class="product-title">Furnicom is a furniture-producing</h3>
+                    <h4 class="product-price">$49.99</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container">
+          <div class="row d-flex flex-wrap">
+            <div class="col-6 works-img">
+              <div class="img-container">
+                <img class="transform-transiction1" src="assets/imgs/project.jpg" alt="">
+              </div>
+              <a href="..." class="details-info">see More Details</a>
+              <span class="effect"></span>
+              <a href="..." class="details-info">see More Details</a>
+            </div>
+            <div class="col-6">
+              <div class="d-flex flex-column gap-5 flex-cards">
+                <div class="img works-img">
+                  <div class="img-container">
+                    <img class="transform-transiction img-active" src="assets/imgs/project2.jpg " alt="">
+                  </div>
+                  <span class="effect"></span>
+                  <a href="..." class="details-info">see More Details</a>
+                </div>
+                <div class="img my-4 works-img">
+                  <div class="img-container">
+                    <img class="transform-transiction" src="assets/imgs/project3.jpg" alt="">
+                  </div>
+                  <span class="effect"></span>
+                  <a href="..." class="details-info">see More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row flex-wrap">
+            <div class="col-6">
+              <div class="d-flex flex-column gap-5 ">
+                <div class="img works-img">
+                  <div class="img-container">
+                    <img class="transform-transiction" src="assets/imgs/project4.jpg" alt="">
+                  </div>
+                  <span class="effect"></span>
+                  <a href="..." class="details-info">see More Details</a>
+                </div>
+                <div class="img my-4 works-img">
+                  <div class="img-container">
+                    <img class="transform-transiction" src="assets/imgs/project5.jpg" alt="">
+                  </div>
+                  <span class="effect"></span>
+                  <a href="..." class="details-info">see More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 works-img">
+              <div class="img-container">
+                <img class="transform-transiction" src="assets/imgs/project6.jpg" alt="">
+              </div>
+              <span class="effect"></span>
+              <a href="..." class="details-info">see More Details</a>
+            </div>
+          </div>
+        </section>
+        <section class=" col-12 testimonials">
+          <div class="testimonials-img">
+            <img src="assets/imgs/testimonials.jpg">
+          </div>
+          <div class="testimonailes-title">
+            <h3>Testimonials</h3>
+          </div>
+          <div class="wrapper__holder">
+            <div class=" wrapper">
+              <article class="card card-1">
+                <div class="card__head">
+                  <img src="assets/imgs/testimonails/per1.jpg" alt="">
+                  <div class="card__user">
+                    <div class="name">Abdelali Taha</div>
+                    <p class="title">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="card__heading">
+                  I received a job offer mid-course, and the subjects I learned were current, if not more so, in the
+                  company
+                  I
+                  joined. I honestly feel I got every penny’s worth.
+                </div>
+                <p class="card__detail">
+                  “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and
+                  have
+                  heard some people who had an amazing experience here. I signed up for the free intro course and found it
+                  incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time
+                  of
+                  my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer
+                  at
+                  a VR startup. ”
+                </p>
+              </article>
+              <article class="card card-2">
+                <div class="card__head">
+                  <img src="assets/imgs/testimonails/per2.jpg" alt="">
+                  <div class="card__user">
+                    <div class="name">Mohammed Haki</div>
+                    <p class="title">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="card__heading">
+                  The team was very supportive and kept me motivated
+                </div>
+                <p class="card__detail">
+                  “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big
+                  company. This was one of the best investments I’ve made in myself. ”
+                </p>
+              </article>
+              <article class="card card-3">
+                <div class="card__head">
+                  <img src="assets/imgs/testimonails/per3.jpg" alt="">
+                  <div class="card__user">
+                    <div class="name">Oussama Ben Mazzi</div>
+                    <p class="title">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="card__heading">
+                  Such a life-changing experience. Highly recommended!
+                </div>
+                <p class="card__detail">
+                  “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
+                  professionals
+                  who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs
+                  who
+                  can only say wonderful things about the program. The entire curriculum and staff did not disappoint.
+                  They
+                  were very hands-on and I never had to wait long for assistance. The agile team project, in particular,
+                  was
+                  outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact,
+                  I’ve
+                  often referred to it during interviews as an example of my developent experience. It certainly helped me
+                  land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”
+                </p>
+              </article>
+              <article class="card card-4">
+                <div class="card__head">
+                  <img src="assets/imgs/testimonails/per4.jpg" alt="">
+                  <div class="card__user">
+                    <div class="name">Khalid Harmon</div>
+                    <p class="title">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="card__heading">
+                  An overall wonderful and rewarding experience
+                </div>
+                <p class="card__detail">
+                  “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while
+                  doing something I love. ”
+                </p>
+              </article>
+              <article class="card card-5">
+                <div class="card__head">
+                  <img src="assets/imgs/testimonails/per5.jpg" alt="">
+                  <div class="card__user">
+                    <div class="name">Mohammed El Morjani</div>
+                    <p class="title">Verified Graduate</p>
+                  </div>
+                </div>
+                <div class="card__heading">
+                  Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
+                  learning
+                  from their experiences was easy.
+                </div>
+                <p class="card__detail">
+                  “ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave
+                  me
+                  the confidence necessary to be able to go out in the world and present myself as a capable junior
+                  developer.
+                  The standard is above the rest. You will get the personal attention you need from an incredible
+                  community
+                  of
+                  smart and amazing people. ”
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="our-parteners">
+            <div class="header">
+              <div>
+                <h3>Featured Parteners</h3>
+                <h2>Our Partners</h2>
+              </div>
+          </div>
+          <div class="swiper-2 mySwiper-2">
+            <div class="swiper-wrappers">
+              <div class="swiper-slide-1"><img src="assets/imgs/brands/4-furniture-land-logo-removebg-preview.png" alt="">
+              </div>
+              <div class="swiper-slide-1"><img
+                  src="assets/imgs/brands/Capture_d_écran_2023-10-27_120251-removebg-preview.png" alt=""></div>
+              <div class="swiper-slide-1"><img
+                  src="assets/imgs/brands/Capture_d_écran_2023-10-27_120235-removebg-preview.png" alt=""></div>
+              <div class="swiper-slide-1"><img
+                  src="assets/imgs/brands/Capture_d_écran_2023-10-27_120138-removebg-preview (1).png" alt=""></div>
+              <div class="swiper-slide-1"><img
+                  src="assets/imgs/brands/Capture_d_écran_2023-10-27_120057-removebg-preview.png" alt=""></div>
+              <div class="swiper-slide-1"><img
+                  src="assets/imgs/brands/Capture_d_écran_2023-10-27_120027-removebg-preview.png" alt=""></div>
+              <div class="swiper-slide-1"><img src="assets/imgs/brands/3-light-chair-furniture-logo-removebg-preview.png"
+                  alt=""></div>
+             
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="text-center text-lg-start bg-gray text-light">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>YouMeubles
+                </h6>
+                <p>
+                  Since 1989, The YouMeubles Company has established a reputation for quality, attention to detail and integrity, attracting customers from far and wide to view their unique collection.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">BEDDING & BATH</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">LIGHTING</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">DECOR & MIRRORS</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">KITCHEN & DINING</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> Boulevard moulay youssef, Youssoufia</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  YouMeubles@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> +212 641725930</p>
+                <p><i class="fas fa-print me-3"></i> +212 633000143</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+      
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="https://guthib.com/">YouMeubles.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- swiper js -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="assets/js/index.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+<body>
+</html>

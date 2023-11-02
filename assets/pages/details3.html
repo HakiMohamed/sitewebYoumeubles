@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>page detail</title>
+</head>
+
+
+<body>
+
+  <header>
+    <div class="aboveNav">
+      <div class="logo">
+        <img src="../../assets/imgs/logowhite.svg" alt="YouMeubles" />
+      </div>
+      <div class="rightInfo">
+        <div class="number">
+          <i class="fa-solid fa-phone"></i>
+          <p>0697042868</p>
+        </div>
+        <div class="Email">
+          <i class="fa-regular fa-envelope"></i>
+          <p>Email@example.com</p>
+        </div>
+      </div>
+    </div>
+    <hr style="margin: 0" />
+    <nav class="navbar navbar-dark bg-gray">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end bg-gray"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- section question OSBM-->
+  <section>
+    <div class="header ">
+      <div>
+        <h3>Have Question</h3>
+        <h2>Ask Here</h2>
+      </div>
+    </div>
+
+    <div class="container container_contact">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-6">
+          <label for="validationCustom01" class="form-label ">First name</label>
+          <input type="text" class="form-control firstName" id="validationCustom01" value="" required>
+          <div class="ErroFName">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom02" class="form-label ">Last name</label>
+          <input type="text" class="form-control lastName" id="validationCustom02" value="" required>
+          <div class="ErroLName">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label ">Email</label>
+          <input type="email" class="form-control email" id="validationCustom03" required>
+          <div class="ErroMail">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom05" class="form-label ">Phone Numer</label>
+          <input type="text" class="form-control phoneNumber" id="validationCustom05" required>
+          <div class="ErroPhone">
+          </div>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control textarea-form" placeholder="Leave a comment here" id="floatingTextarea"
+            style="height: 160px;"></textarea>
+          <div class="ErroText">
+          </div>
+          <label for="floatingTextarea">Comments</label>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary btn-submit" type="submit">Submit form</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+    
+    <div class="container">
+
+      
+      <h4 class="my-4">Home
+        <small>/details/produit</small>
+      </h4>
+
+      
+      <div class="row">
+
+        <div class="col-md-8">
+          <img class="img-fluid" src="../imgs/kors1.jpg" alt="">
+          
+        </div>
+        
+
+        <div class="col-md-4 position-relative">
+          <h3 class="my-3">RAMSEY BLACK TREE MARBLE SOAP PUMP</h3>
+          <h4>$1,799.00</h4>
+          <div class="rating">
+            <div class="stars">
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star"></span>
+              <span class="fas fa-star-half-alt"></span>
+            </div>
+            <span class="review-no">175 reviews</span>
+          </div>
+          <div>
+            <h5>Colors :</h5>
+            <img src="../imgs/kors1.jpg" width="100px" alt="">
+            <img src="../imgs/choiceKOrs2.jpg" width="100px" alt="">
+          </div>
+
+          <h3 class="my-3">MYAH, MUSHROOM</h3>
+          <p>Pairing the subtle luster of cotton with the softness of wool, cotton-blend velvet yields a smooth yet dense pile with rich, saturated color. Color may vary depending on the angle of view and direction of light.</p>
+          <br>
+          <ul>
+            <li> <b> Arabascato marble and stainless steel</b></li>
+            <li> <b> : : </b> <span> Clean with a soft cloth</span></li>
+            <li> <b> Fabric Origin:</b> <span>India</span></li>
+          </ul>
+          <div class="d-flex justify-content-between"> <button type="button" class="btn btn-dark"> Add To Cart </button></div>
+          <br>
+          <div class="accordion" id="accordionExample" >
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Can I send  to multiple addresses?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>send to multiple addresses.</strong> If you are ordering multiple quantities of the same item and wish to send them to different addresses, make sure to add each item to your cart separately. You will be able to specify the different addresses on the Shipping page in Checkout.
+                
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What gift options are available?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>gift options available.</strong>You can include a gift message free of charge with any item during Checkout. And
+                  don't worry, none of our items ship with price tags or pricing information.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How does store pickup work?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>store pickup.</strong> Store Pickup allows you to make purchases online and pick up your order at a store of your choice. Get your orders faster and avoid shipping charges.  Add items to your cart. Click the store Pickup button on the Cart page and select your local store. Complete your order online. You may go to the store after you receive the "Ready for pick-up" email or text. Bring your "Ready for pick-up" email or text to your selected store to pick up your items
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+      <div class="row d-flex mt-3" >
+
+        <div class="col-6 col-md-4 col-xl-3 w-10">
+          <a href="#">
+            <img class="img-fluid" src="../imgs/kors2.jpg" style="width:  100%;" alt="">
+          </a>
+          
+        </div>
+
+        <div class="col-6 col-md-4 col-xl-3 w-10">
+          <a href="#">
+            <img class="img-fluid" src="../imgs/kors3.jpg" style="width:  100%;" alt=""> 
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xl-3 w-10">
+          <a href="#">
+            <img class="img-fluid" src="../imgs/kors4.jpg" style="width:  100%;" alt="">
+          </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-xl-3 w-10">
+          <a href="#">
+            <img class="img-fluid" src="../imgs/kors5.jpg" style="width:  100%;" alt="">
+          </a>
+        </div>
+      
+
+<br>
+
+<div><hr></div>
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">Related Products</h3>
+
+    <!-- /.container -->
+
+    <div class="container d-flex justify-content-center mt-50 mb-50">
+            
+      <div class="row">
+         <div class="col-md-4 mt-2">
+          
+              
+              <div class="card">
+                                  <div class="card-body">
+                                      <div class="card-img-actions">
+                                          
+                                              <img src="../imgs/khaymiyat1.jpg" class="card-img img-fluid" width="96" height="350" alt="">
+                                            
+                                         
+                                      </div>
+                                  </div>
+
+                                  <div class="card-body bg-light text-center">
+                                      <div class="mb-2">
+                                          <h6 class="font-weight-semibold mb-2">
+                                              <a href="#" class="text-dark mb-2" data-abc="true">SEDA SMOKY MAUVE DUPIONI SILK WINDOW CURTAIN PANEL 48"X84''</a>
+                                          </h6>
+
+                                          <a href="#" class="text-muted" data-abc="true">DECOR & MIRRORS</a>
+                                      </div>
+
+                                      <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                      <div>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                      </div>
+
+                                      <div class="text-muted mb-3">34 reviews</div>
+
+                                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                      
+                                  </div>
+                              </div>
+
+
+                          
+                           
+         </div> 
+
+
+         <div class="col-md-4 mt-2">
+          
+              
+              <div class="card">
+                                  <div class="card-body">
+                                      <div class="card-img-actions">
+                                          
+                                              <img src="../imgs/khaymiyat2.jpg" class="card-img img-fluid" width="96" height="350" alt="">
+                                            
+                                         
+                                      </div>
+                                  </div>
+
+                                  <div class="card-body bg-light text-center">
+                                      <div class="mb-2">
+                                          <h6 class="font-weight-semibold mb-2">
+                                              <a href="#" class="text-dark mb-2" data-abc="true">SEDA DEEP BLUE DUPIONI SILK WINDOW CURTAIN PANEL 48"X84</a>
+                                          </h6>
+
+                                          <a href="#" class="text-muted" data-abc="true">DECOR & MIRRORS</a>
+                                      </div>
+
+                                      <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                      <div>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                      </div>
+
+                                      <div class="text-muted mb-3">34 reviews</div>
+
+                                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                      
+                                  </div>
+                              </div>
+
+
+                          
+                           
+         </div> 
+
+         <div class="col-md-4 mt-2">
+          
+              
+              <div class="card">
+                                  <div class="card-body">
+                                      <div class="card-img-actions">
+                                          
+                                              <img src="../imgs/lightTools.jpg" class="card-img img-fluid" width="96" height="350" alt="">
+                                            
+                                         
+                                      </div>
+                                  </div>
+
+                                  <div class="card-body bg-light text-center">
+                                      <div class="mb-2">
+                                          <h6 class="font-weight-semibold mb-2">
+                                              <a href="#" class="text-dark mb-2" data-abc="true">WALDEN FLORAL JADE MARBLE TABLE LAMP OVERSIZED</a>
+                                          </h6>
+
+                                          <a href="#" class="text-muted" data-abc="true">LIGHTING</a>
+                                      </div>
+
+                                      <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                      <div>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                      </div>
+
+                                      <div class="text-muted mb-3">34 reviews</div>
+
+                                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                      
+                                  </div>
+                              </div>
+
+
+                          
+                           
+         </div> 
+
+
+         <div class="col-md-4 mt-2">
+          
+              
+              <div class="card">
+                                  <div class="card-body">
+                                      <div class="card-img-actions">
+                                          
+                                              <img src="../imgs/bedbrown.jpg" class="card-img img-fluid" width="96" height="350" alt="">
+                                            
+                                         
+                                      </div>
+                                  </div>
+
+                                  <div class="card-body bg-light text-center">
+                                      <div class="mb-2">
+                                          <h6 class="font-weight-semibold mb-2">
+                                              <a href="#" class="text-dark mb-2" data-abc="true">ALTO ORGANIC COTTON DARK GREEN DUVET COVER AND PILLOW SHAMS</a>
+                                          </h6>
+
+                                          <a href="#" class="text-muted" data-abc="true">BEDDING & BATH</a>
+                                      </div>
+
+                                      <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                      <div>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                      </div>
+
+                                      <div class="text-muted mb-3">34 reviews</div>
+
+                                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                      
+                                  </div>
+                              </div>
+
+
+                          
+                           
+         </div> 
+
+
+         <div class="col-md-4 mt-2">
+          
+              
+              <div class="card">
+                                  <div class="card-body">
+                                      <div class="card-img-actions">
+                                          
+                                              <img src="../imgs/light11.jpg" class="card-img img-fluid" width="96" height="350" alt="">
+                                            
+                                         
+                                      </div>
+                                  </div>
+
+                                  <div class="card-body bg-light text-center">
+                                      <div class="mb-2">
+                                          <h6 class="font-weight-semibold mb-2">
+                                              <a href="#" class="text-dark mb-2" data-abc="true">ELODIE POLISHED BRASS WALL SCONCE LIGHT RIGHT-FACING</a>
+                                          </h6>
+
+                                          <a href="#" class="text-muted" data-abc="true">LIGHTING</a>
+                                      </div>
+
+                                      <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                      <div>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                      </div>
+
+                                      <div class="text-muted mb-3">34 reviews</div>
+
+                                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                      
+                                  </div>
+                              </div>
+
+
+                          
+                           
+         </div> 
+
+
+         <div class="col-md-4 mt-2">
+          
+              
+              <div class="card">
+                                  <div class="card-body">
+                                      <div class="card-img-actions">
+                                          
+                                              <img src="../imgs/tollsmiel.jpg" class="card-img img-fluid" width="96" height="350" alt="">
+                                            
+                                         
+                                      </div>
+                                  </div>
+
+                                  <div class="card-body bg-light text-center">
+                                      <div class="mb-2">
+                                          <h6 class="font-weight-semibold mb-2">
+                                              <a href="#" class="text-dark mb-2" data-abc="true">SWARM GLASS HONEY POT AND DIPPER</a>
+                                          </h6>
+
+                                          <a href="#" class="text-muted" data-abc="true">KITCHEN & DINING</a>
+                                      </div>
+
+                                      <h3 class="mb-0 font-weight-semibold">$250.99</h3>
+
+                                      <div>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                         <i class="fa fa-star star"></i>
+                                      </div>
+
+                                      <div class="text-muted mb-3">34 reviews</div>
+
+                                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+
+                                      
+                                  </div>
+                              </div>
+
+
+                          
+                           
+         </div> 
+
+
+
+
+
+      </div>
+  </div>
+
+ 
+<section class="py-3 py-md-5 py-xl-8">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <h1 class="fs-1 text-dark mb-2 text-uppercase text-center">Our Partners</h1>
+        <h3 class="mb-4 display-5 text-secondary text-center">Trusted by over 786+ Partners.</h3>
+        <p class="fs-4 text-secondary mb-5 text-center">Our clients are our top priority, and we are committed to providing them with the highest level of service.</p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+
+  <div class="container overflow-hidden">
+    <div class="row gy-4">
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/Capture_d_écran_2023-10-27_115924-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/Capture_d_écran_2023-10-27_120027-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/Capture_d_écran_2023-10-27_120057-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/Capture_d_écran_2023-10-27_120120-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/Capture_d_écran_2023-10-27_120138-removebg-preview (1).png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/Capture_d_écran_2023-10-27_120235-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/10-king-furniture-logo-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/198fc8a2981818511dd4c313c2176ff8--logo-desing-smart-furniture-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/198fc8a2981818511dd4c313c2176ff8--logo-desing-smart-furniture-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/3-light-chair-furniture-logo-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/4-furniture-land-logo-removebg-preview.png" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-3 text-center">
+        <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
+          <img src="../imgs/brands/lemobilier-logo-1642026218.jpg" width="100%" height="65" fill="currentColor" viewBox="0 0 284 65">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-gray text-light">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>YouMeubles
+          </h6>
+          <p>
+            Since 1989, The YouMeubles Company has established a reputation for quality, attention to detail and integrity, attracting customers from far and wide to view their unique collection.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">BEDDING & BATH</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">LIGHTING</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">DECOR & MIRRORS</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">KITCHEN & DINING</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Boulevard moulay youssef, Youssoufia</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            YouMeubles@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +212 641725930</p>
+          <p><i class="fas fa-print me-3"></i> +212 633000143</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">YouMeubles.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+  <!-- js bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
